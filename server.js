@@ -7,7 +7,7 @@ const authRoutes = require('./routes/authRoutes');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Welcome to the MERN Auth Backend');
+    res.send('Welcome to the MERN Auth Backend! <br> Created By Rohullah Hamid');
   });
 
 
